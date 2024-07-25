@@ -1,219 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume of Pavan Kalyan Aningi</title>
-    <style>
-        /* CSS styles */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        header {
-            padding-bottom: 20px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        h1, h2, h3 {
-            margin: 0 0 10px 0;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            color: #4CAF50;
-        }
-
-        .contact {
-            font-size: 1.1em;
-            margin: 10px 0;
-        }
-
-        .contact a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-
-        h2 {
-            font-size: 1.5em;
-            color: #555;
-        }
-
-        section {
-            padding: 20px 0;
-            text-align: left;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        ul li strong {
-            color: #333;
-        }
-
-        ul li ul {
-            margin-top: 5px;
-            margin-left: 20px;
-        }
-
-        @keyframes fadeIn {
-            0% { opacity: 0; }
-            100% { opacity: 1; }
-        }
-
-        .animate__animated {
-            animation-duration: 1s;
-            animation-fill-mode: both;
-        }
-
-        .animate__fadeInDown {
-            animation-name: fadeInDown;
-        }
-
-        @keyframes fadeInDown {
-            0% {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .animate__fadeInLeft {
-            animation-name: fadeInLeft;
-        }
-
-        @keyframes fadeInLeft {
-            0% {
-                opacity: 0;
-                transform: translateX(-20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        .animate__fadeInRight {
-            animation-name: fadeInRight;
-        }
-
-        @keyframes fadeInRight {
-            0% {
-                opacity: 0;
-                transform: translateX(20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        .animate__fadeInUp {
-            animation-name: fadeInUp;
-        }
-
-        @keyframes fadeInUp {
-            0% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .profile-picture {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            margin-top: 20px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form with Social Media Buttons</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .login-form {
+        margin-top: 50px;
+    }
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+        width: 250px;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .login-form button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .login-form button:hover {
+        background-color: #45a049;
+    }
+    .social-buttons {
+        margin-top: 20px;
+    }
+    .social-buttons a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .social-buttons .facebook {
+        background-color: #3b5998; /* Facebook blue */
+    }
+    .social-buttons .facebook:hover {
+        background-color: #2d4373; /* Darker Facebook blue on hover */
+    }
+    .social-buttons .instagram {
+        background-color: #bc2a8d; /* Instagram purple */
+    }
+    .social-buttons .instagram:hover {
+        background-color: #8a3ab9; /* Darker Instagram purple on hover */
+    }
+</style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <img src="C:\Users\LENOVO\Downloads\Pass photo (1).jpg" alt="Profile Picture" class="profile-picture animate__animated animate__fadeInDown">
-            <h1 class="animate__animated animate__fadeInDown">Pavan Kalyan Aningi</h1>
-            <p class="contact animate__animated animate__fadeInLeft">
-                Phone: 9505950521 | Email: <a href="mailto:pavan.aningi1998@gmail.com">pavan.aningi1998@gmail.com</a>
-            </p>
-            <h2 class="animate__animated animate__fadeInRight">AWS DevOps Engineer</h2>
-        </header>
-        <section class="animate__animated animate__fadeInUp">
-            <h3>Professional Experience</h3>
-            <ul>
-                <li>
-                    <strong>Company Name</strong> - Genamplify solutions hub pvt ltd
-                    <ul>
-                        <li>•   1 year of IT Industry experience with AWS Cloud with DevOps..</li>
-                        <li>•   Experience as AWS, Cloud, and DevOps engineer, as well as Linux Systems Administrator.</li>
-                        <li>•	Experience in Amazon AWS Cloud Services, (EC2, S3, ELB, Cloud Watch, Elastic IP, RDS, SNS, S3 Buckets, S3 Glacier, IAM, VPC, Cloud Formation, Route53), and managing security on AWS.</li>
-                        <li>•	Automate AWS services including web servers, ELB, RDS Databases, EC2s and security groups, and S3 bucket and application configuration.</li>
-                        <li>•	Built and deployed applications by adopting DevOps practices such as CI/CD in runtime with various tools such as Jenkins, Ansible.</li>
-                        <li>•	Worked with containerization tools such as Docker.</li>
-                        <li>•	Expertise with monitoring tools like Cloud Watch.</li>
 
+<div class="login-form">
+    <h2>Login</h2>
+    <form>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <br>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+</div>
 
-                    </ul>
-                </li>
-                
-                <!-- Add more experiences as needed -->
-            </ul>
-        </section>
-        <section class="animate__animated animate__fadeInUp">
-            <h3>Education</h3>
-            <ul>
-                <li><strong>Andhra University</strong> - BSc computer science (2021)</li>
-                <!-- Add more educational qualifications as needed -->
-            </ul>
-        </section>
-        <section class="animate__animated animate__fadeInUp">
-            <h3>Skills</h3>
-            <ul>
-                <li>AWS Cloud </li>
-                <li>CI/CD Pipelines with Jenkins</li>
-                <li>Infrastructure as Code (Terraform)</li>
-                <li>DevOps- Github, Maven, Tomcat, Jenkins, Soanrqube, Nexus, Docker, Kuberenetes</li>
-                <!-- Add more skills as needed -->
-        <section class="animate__animated animate__fadeInUp">
-            <h3>Personal Details</h3>
-            <ul>
-                <li>Name          :Pavan kalyan Aningi</li>
-                <li>Mail          :pavan.aningi1998@gmail.com</li>
-                <li>Father’s Name :Jagadeesh Aningi</li>
-                <li>Nationality   :Indian</li>                   
-                <li>Languages     :English, Telugu, Hindi</li>
-                <li>Marital status:Single</li>
-                        <!-- Add more skills as needed -->
-            </ul>
-            
-        </section>
-    </div>
+<div class="social-buttons">
+    <a href="#" class="facebook">Login with Facebook</a>
+    <a href="#" class="instagram">Login with Instagram</a>
+</div>
+
 </body>
 </html>
